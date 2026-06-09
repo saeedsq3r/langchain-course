@@ -1,0 +1,31 @@
+[project]
+name = "langchain-models"
+version = "0.1.0"
+description = "Learning and experimenting with LangChain models"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    # LangChain Core
+    "langchain",
+    "langchain-core",
+    # OpenAI Integration
+    "langchain-openai",
+    "openai",
+    # Anthropic Integration
+    "langchain-anthropic",
+    # Google Gemini Integration
+    "langchain-google-genai",
+    "google-generativeai",
+    # Hugging Face Integration
+    "langchain-huggingface",
+    "transformers",
+    "huggingface-hub",
+    # Environment Variables
+    "python-dotenv",
+    # Machine Learning Utilities
+    "numpy",
+    "scikit-learn",
+    "streamlit>=1.58.0",
+    "pydantic[email]>=2.13.4",
+]
